@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wonder Woman Quiz</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/normaliz.js"></script>
+</head>
+<body>
+	<h1>Wonder Woman Quiz</h1>
+	<div id="question_wrapper">
+
+		<span class="question">Question #1. What island is Wonder Woman from?</span>
+
+
+		<div id="answer_holder">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Paradise Island</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">San Francisco</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Babylonia</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Denver</label><br/>
+		</div>
+    	<div id="button_holder">
+			<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
+       		<input type="button" id="retry_button" value="Try Again!">
+		</div>
+    </div>
+    <div class="content-counter">
+    	<span id="counterIndex" class="counter-index">1</span>
+    	<span>of</span>>
+    	<span id="counterLength" class="counter-length">10</span>
+    </div>
+    <div class="game-score">
+    	<span class="score-span">SCORE:</span>
+    	<span class="game-score-number">0</span>
+    </div>
+
+
+
+    </body>
+	<div id="bottom">
+		<div id="score_holder">
+			<div id="question_score">
+				<img src="images/WWIcon-0.png" class ="score_icon" id="score_icon0" alt="score_icon">
+				<img src="images/WWIcon-1.png" class ="score_icon" id="score_icon1" alt="score_icon">
+				<img src="images/WWIcon-2.png" class ="score_icon" id="score_icon2" alt="score_icon">
+				<img src="images/WWIcon-3.png" class ="score_icon" id="score_icon3" alt="score_icon">
+				<img src="images/WWIcon-4.png" class ="score_icon" id="score_icon4" alt="score_icon">
+				<img src="images/WWIcon-5.png" class ="score_icon" id="score_icon5" alt="score_icon">
+			</div>
+			<div id="fact_holder">
+				<span id="last_question_fact">
+				</span>
+			</div>
+		</div>
+	</div>
+
+
+</html>
